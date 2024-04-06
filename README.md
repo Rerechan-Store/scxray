@@ -15,12 +15,16 @@
  ``` 
  ***TAHAP 1*** 
  ``` 
- apt-get update && apt-get upgrade -y && update-grub && sleep 2 && apt install curl -y && apt install wget -y && apt install tmux -y && reboot 
+ apt-get update && apt-get upgrade -y && update-grub && sleep 2 && apt install curl -y && apt install wget -y && apt install tmux -y && apt install gnugpg -y && reboot 
  ``` 
  ***TAHAP 2*** 
- ``` 
- 
  ```
+wget https://raw.githubusercontent.com/Rerechan-Store/scxray/main/install.sh ; chmod +x install.sh ; tmux new -s install ; ./install.sh
+ ```
+***If Disconnect Before Finishing Installation***
+```
+tmux attach-session -t install
+```
 ### TESTED ON OS 
 - UBUNTU 18.04 LTS / 20.04 LTS / 22.04 LTS KVM & OpenVZ 7
 - DEBIAN 9 / 10 / 11 / 12 KVM & OpenVZ
