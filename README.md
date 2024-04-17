@@ -19,7 +19,7 @@
  ``` 
  ***TAHAP 2*** 
  ```
-wget https://raw.githubusercontent.com/Rerechan-Store/scxray/main/install.sh ; chmod +x install.sh ; tmux new -s install ; ./install.sh
+wget https://raw.githubusercontent.com/Rerechan-Store/scxray/main/install.sh ; chmod +x install.sh ; ./install.sh
  ```
 ***If Disconnect Before Finishing Installation***
 ```
